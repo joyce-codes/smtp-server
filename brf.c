@@ -107,17 +107,3 @@ int main() {
                     pthread_join(threads[i], NULL);
                 }
                 thread_count = 0;
-            }
-        }
-
-        rewind(password_file); // Reset password file pointer
-    }
-
-    for (int i = 0; i < thread_count; i++) {
-        pthread_join(threads[i], NULL);
-    }
-
-    fclose(password_file);
-    fclose(email_file);
-    return 0;
-}
