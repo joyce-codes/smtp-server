@@ -1,4 +1,4 @@
-/*
+ /*
  * smtp_auth.c
  *
  * SMTP authentication support.
