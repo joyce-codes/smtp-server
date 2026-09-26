@@ -6,7 +6,6 @@
 #include <pthread.h>
 #include <sys/select.h>
 
-
 #define PORT 25
 #define BUFFER_SIZE 1024
 #define MAX_CLIENTS 1000
